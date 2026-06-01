@@ -3,5 +3,12 @@
 # Compile the application
 javac -encoding UTF-8 --source-path src -d dist src/*.java
 
+# Use correct classpath separator for Windows vs Unix
+if [ -n "$MSYSTEM" ] || [ "$OS" = "Windows_NT" ]; then
+  SEP=";"
+else
+  SEP=":"
+fi
+
 # Compile the tests
-javac -encoding UTF-8 --source-path test -d dist -cp dist:lib/junit-platform-console-standalone-1.7.1.jar test/*.java
+javac -encoding UTF-8 --source-path test -d dist -cp "dist${SEP}lib/junit-platform-console-standalone-1.7.1.jar" test/*.java

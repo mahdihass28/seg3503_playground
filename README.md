@@ -94,20 +94,11 @@ Finished in 0.01 seconds (0.00s async, 0.01s sync)
 
 ## Screenshots
 
-### Java version
-<!-- Add screenshot of: java --version -->
+### Java version & Elixir version
+![Java and Elixir versions](screenshots/java_elixir_versions.png)
 
-### Java run
-<!-- Add screenshot of bin/run output -->
+### Java — run & test
+![Java run and test](screenshots/newmathjava.png)
 
-### Java test
-<!-- Add screenshot of bin/test output -->
-
-### Elixir version
-<!-- Add screenshot of: elixir --version -->
-
-### Elixir run
-<!-- Add screenshot of bin/run with NewmathEx.div calls -->
-
-### Elixir test
-<!-- Add screenshot of bin/test output -->
+### Elixir — run & test
+![Elixir run and test](screenshots/newmathex.png)
