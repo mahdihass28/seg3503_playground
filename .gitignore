@@ -1,0 +1,5 @@
+.DS_Store
+__MACOSX/
+Lab1/newmath_java/dist/*.class
+Lab1/newmath_ex/_build/
+Lab1/newmath_ex/deps/
