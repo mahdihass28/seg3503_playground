@@ -4,8 +4,9 @@
 |----------|---------------|
 | Course   | SEG 3503      |
 | Date     | Summer 2026   |
-| Student  | Mahdi Roueh   |
-| Email    | mrouehs11@gmail.com |
+| Student  | Mahdi Hassoun |
+| Email    | mhass082@uottawa.ca |
+| GitHub   | https://github.com/mahdihass28/seg3503_playground |
 
 ---
 
