@@ -1,34 +1,34 @@
 # seg3503_playground
 
-| Field    | Value         |
-|----------|---------------|
-| Course   | SEG 3503      |
-| Date     | Summer 2026   |
-| Student  | Mahdi Hassoun |
-| Email    | mhass082@uottawa.ca |
-| GitHub   | https://github.com/mahdihass28/seg3503_playground |
+| Champ      | Valeur        |
+|------------|---------------|
+| Cours      | SEG 3503      |
+| Date       | Été 2026      |
+| Étudiant   | Mahdi Hassoun |
+| Courriel   | mhass082@uottawa.ca |
+| GitHub     | https://github.com/mahdihass28/seg3503_playground |
 
 ---
 
-## Lab 1
+## Laboratoire 1
 
-Both projects live in `Lab1/`. Run all commands from inside each project folder using **Git Bash** (Windows) or a standard terminal (Mac/Linux).
+Les deux projets se trouvent dans `Lab1/`. Exécutez toutes les commandes depuis le dossier de chaque projet en utilisant **Git Bash** (Windows) ou un terminal standard (Mac/Linux).
 
 ### Java — newmath_java
 
-**Requirements:** Java 21+
+**Prérequis :** Java 21+
 
 ```bash
 cd Lab1/newmath_java
 
-# Run the interactive division program
+# Lancer le programme de division interactif
 bin/run
 
-# Run JUnit tests
+# Lancer les tests JUnit
 bin/test
 ```
 
-**Run output:**
+**Résultat de bin/run :**
 ```
 Newmath (type 'exit' to exit program)
 Numerator: 5
@@ -37,7 +37,7 @@ Demoninator: 5
 Numerator: exit
 ```
 
-**Test output:**
+**Résultat de bin/test :**
 ```
 Thanks for using JUnit! Support its development at https://junit.org/sponsoring
 
@@ -66,24 +66,24 @@ Test run finished after 40 ms
 
 ### Elixir — newmath_ex
 
-**Requirements:** Elixir 1.14+ with Erlang/OTP 25+
+**Prérequis :** Elixir 1.14+ avec Erlang/OTP 25+
 
 ```bash
 cd Lab1/newmath_ex
 
-# Run interactive IEx session
+# Lancer une session IEx interactive
 bin/run
-# Then in IEx:
+# Puis dans IEx :
 #   iex(1)> NewmathEx.div(5, 2)
 #   {:ok, 2.5}
 #   iex(2)> NewmathEx.div(5, 0)
 #   {:error, "Cannot divide by zero"}
 
-# Run ExUnit tests
+# Lancer les tests ExUnit
 bin/test
 ```
 
-**Test output:**
+**Résultat de bin/test :**
 ```
 ...
 Finished in 0.01 seconds (0.00s async, 0.01s sync)
@@ -92,13 +92,13 @@ Finished in 0.01 seconds (0.00s async, 0.01s sync)
 
 ---
 
-## Screenshots
+## Captures d'écran
 
-### Java version & Elixir version
-![Java and Elixir versions](screenshots/java_elixir_versions.png)
+### Version Java & Version Elixir
+![Versions Java et Elixir](screenshots/java_elixir_versions.png)
 
-### Java — run & test
-![Java run and test](screenshots/newmathjava.png)
+### Java — exécution & tests
+![Exécution et tests Java](screenshots/newmathjava.png)
 
-### Elixir — run & test
-![Elixir run and test](screenshots/newmathex.png)
+### Elixir — exécution & tests
+![Exécution et tests Elixir](screenshots/newmathex.png)
